@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example Tests" parallel="tests" thread-count="4" configfailurepolicy="continue" verbose="10">
+    <test name="Chrome tests" parallel="methods" thread-count="3">
+        <packages>
+            <package name="tests.*"/>
+        </packages>
+    </test>
+</suite>
