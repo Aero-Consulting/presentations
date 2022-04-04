@@ -1,0 +1,6 @@
+/allure-report/
+/allure-results/
+/test-results/
+/.vscode/
+/.idea/
+/node_modules/
